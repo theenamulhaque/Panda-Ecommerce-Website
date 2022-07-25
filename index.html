@@ -24,35 +24,28 @@
     <!--=================== Header Section Start========================== -->
 
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="image/logo.png" alt=""
           /></a>
           <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -61,14 +54,10 @@
 
       <!-- Banner Start -->
 
-      <section class="banner-slider">
-        <div class="container">
+      <section class="banner-slider pt-5" id="home">
+        <div class="container pt-3">
           <!--  -->
-          <div
-            id="carouselExampleControls"
-            class="carousel slide pt-5"
-            data-bs-ride="carousel"
-          >
+          <div id="carouselExampleControls" class="carousel slide pt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <!--  -->
               <!--  -->
@@ -191,7 +180,9 @@
     <!--=================== Main Part Code Start ======================-->
 
     <main>
+
       <!-- Categories Code Start -->
+
       <section class="categories mt-5">
         <div class="container overflow-hidden text-center">
           <div class="row gy-5">
@@ -242,10 +233,12 @@
           </div>
         </div>
       </section>
+
       <!-- Categories Code End -->
+
       <!-- Product Display Cardgroup Shoes Code Start -->
 
-      <section class="product-display-cardgroup-shoes pt-5">
+      <section id="shoes" class="product-display-cardgroup-shoes pt-5">
         <div class="container">
           <h1 class="pb-3 pt-3">Shoes</h1>
           <!--  -->
@@ -345,7 +338,7 @@
 
       <!-- Product Display Cardgroup Bagpack Code Start -->
 
-      <section class="product-display-cardgroup-bagpack pt-5 pb-5">
+      <section id="backpack" class="product-display-cardgroup-bagpack pt-5 pb-5">
         <div class="container">
           <h1 class="pb-3 pt-3">Bagpack</h1>
           <!--  -->
@@ -471,7 +464,7 @@
     <!--=========== Main Part Code End ======================-->
     <!--=========== Footer Part Code Start ======================-->
 
-    <section class="footer-part pt-5">
+    <section id="subscribe" class="footer-part pt-5">
       <div class="container pt-5">
         <div class="row">
           <div class="col-lg-12 text-center">
